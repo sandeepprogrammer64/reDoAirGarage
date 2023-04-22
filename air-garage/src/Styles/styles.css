@@ -1,0 +1,179 @@
+#Navbar
+{
+    display: flex;
+}
+a{
+    text-decoration:none;
+}
+img
+{
+    width: 138px;
+    margin-left: 200px;
+    padding: 12px 0px 0px;
+}
+
+#link1
+{
+    color: #222222;
+    font-size: 14px;
+    font-family: sans-serif;
+    padding: 8px;
+    margin-left: 490px;
+}
+#link2, #link3
+{
+    font-size: 14px;
+    padding: 22px;
+    font-family: sans-serif;
+    color: #222222;
+}
+#Main_Img1
+{
+
+    
+    grid-template-rows: repeat(1,);
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    display: grid;
+    margin: 165px ;
+    gap: 0px;
+}
+
+#Nav2-img
+{ 
+    width: 260px;
+    height: 240px;
+    margin-left: 100px;
+
+}
+
+#img2>img
+{
+width: 436px;
+margin-top: 40px;
+border-radius: 10px;
+margin-left: 0px;
+margin-top: 0px;
+}
+
+#small_Imgs
+{
+    width: 60%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1);
+    display: grid;
+    gap: 10px;
+
+
+
+} 
+#small_Img1, #small_Img2, #small_Img3
+{
+margin: auto;
+width: 80px;
+height: 20px;
+}
+
+#small_Img1
+{
+    height: 35px;
+} 
+
+#Mid-Portion
+{
+    margin-top: 100px;
+}
+
+#Mid-Portion>h2
+{
+font-family: sans-serif;
+font-size: 32px;
+color: #333333;
+margin: 20px 0px 10px;
+}
+#Mid-Portion>p
+{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #A1A6AF;
+    width: 194%;
+}
+
+
+#Model_Img
+{
+    width: 1000px;
+    margin-top: 0px;
+    margin-left: 165px;
+}
+#Mid-Headers
+{
+    margin-top: 80px;
+    margin-left: 165px;
+}
+#Mid-Headers>h2{
+    font-size: 32px;
+    color: #333333;
+    margin: 20px 0px 10px;
+    font-family: sans-serif;
+}
+#Mid-Headers>p{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #A1A6AF ;
+}
+
+
+
+
+
+
+#skills{
+    width: 96%;
+    margin: auto;
+    padding-bottom: 20px;
+   
+}
+
+
+#skills:hover{
+    /* border-radius: 40%; */
+    cursor: pointer;
+}
+
+/* #skill_heading{
+    text-align: center;
+}
+
+#yes h3{
+    
+    color: black;
+    height: 45px;
+    padding: 10px;
+
+} */
+
+
+  
+
+
+
+.imgs img{
+    width: fit-content;
+    height: 400px;
+    margin: auto;
+    
+    background-color: blanchedalmond;
+    
+}
+/*
+.imgs img:hover{
+    transform: scale(1.08);
+    transition: 1s ease-in;
+    cursor: pointer;
+}
+
+ */
+
+
+
